@@ -15,14 +15,18 @@
         <!-- Font and perso imports -->
         <link type="text/css" rel="stylesheet" href="./ressources/style.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif|PT+Sans+Narrow" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="ressources/import-contact.css">
         <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
         <!-- My scripts -->
-        <script src="./ressources/scriptFormiport.js"></script>
+        <!--
+        <script src="./ressources/import-contact.js"></script>
+        -->
     </head>
     <body>
         <div class="container-fluid">
             <nav>
                 <ul class="ul-no-style flexbox">
+                    <li><a href="#top"><i class="fa fa-home" aria-hidden="true" style="font-size: 31px; position: absolute; top: 10px;"></i></a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#profile">PROFILE</a></li>
                     <li><a href="#real">REALISATIONS</a></li>
@@ -38,16 +42,173 @@
                     <div>
                         <h1>Hello !</h1>
                         <p>Je suis Lucie , Lyonnaise depuis 2009. Infographiste repentie, en reconversion dans le développement web en 2016. Aujourd'hui en formation avec l'IT-Akademy. Dans le cadres de cette de cette formation, je recherche une opportunité d'alternance à partir du mois de mars.</p>
-                        <a href="#contact-items" class="btn btn-danger">CONTACT !</a>
+                        <a href="#form-section" class="btn btn-danger">CONTACT !</a>
                     </div>
                 </div>
             </section>
 
             <section id="skills">
-                <div class="container">
+                <div class="container flexbox">
 
                     <!-- ARTICLES -->
 
+                    <article class=" col-sm-6">
+                        <div class="flexbox">
+                            <div class="border-right">
+                                <span class="icon-strong"><i class="fa fa-terminal" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="reduce-width">
+                                <h3>Développement</h3>
+                                <p class="muted">
+                                    Création de MCD et schéma conceptuels post-implémentation, création et administration de bases de données,
+                                    requêtes SQL, gestion de comptes utilisateurs, accessibilité des données, tests unitaire des fonctionnalités,
+                                    implémentation orientée objets, programmation impérative, debug et maintenance des applications web, installation de
+                                    wordpress avec wpcli et développement de thèmes / plugins, utilisation de framework (laravel, symfony, zend studio).
+                                </p>
+                                <ul class="tag-list ul-no-style flexbox wrap">
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Php5/Php7</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> MySQL</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> python3</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Jquery</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> JavaScript</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Wordpress</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> JetBrains</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class=" col-sm-6">
+                        <div class="flexbox">
+                            <div class="border-right">
+                                <span class="icon-strong"><i class="fa fa-terminal" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="reduce-width">
+                                <h3>Technique</h3>
+                                <p class="muted">
+                                    Introduction à l'environnement .NET (c#.NET avec VisualStudio), gestion de l'hébergeur (OVH principalement), mise en ligne, migration de site,
+                                    redirections. Environnement UNIX (Mint, Ubuntu, Kali et MacOS), utilisation du protocole de connexion SSH,
+                                    gestion de server (Apache notamment), développement en virtualisation (virtualbox, vagrant), notion de réseau.
+                                </p>
+                                <ul class="tag-list ul-no-style flexbox wrap">
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> hébergement</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Kali</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Virtualisation</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> SSH</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> réseau</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> .NET</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Server</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="container flexbox">
+                    <article class=" col-sm-6">
+                        <div class="flexbox">
+                            <div class="border-right">
+                                <span class="icon-strong"><i class="fa fa-terminal" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="reduce-width">
+                                <h3>Gestion</h3>
+                                <p class="muted">
+                                    Gestion de projet, initiation à la méthode agile (scrum), construction de diagram PERT,
+                                    utilisation de gantt pour gérer les tâches et les ressources. Rédaction d'un cahier des charges complet,
+                                    rédaction techniques des spécificités et fonctionnalités, relation clients et fournisseurs, création de devis
+                                    sur base de coût journalier ou horaire, tracking du temps effectif, organisation quotidienne du travail,
+                                    notion de marketing digital et réseau sociaux.
+                                </p>
+                                <ul class="tag-list ul-no-style flexbox wrap">
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Agile</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> PERT/Gantt</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Suite Office</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Cahier des charges</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> gestion de projet</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> relations clients</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-sm-6">
+                        <div class="flexbox">
+                            <div class="border-right">
+                                <span class="icon-strong"><i class="fa fa-terminal" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="reduce-width">
+                                <h3>Design</h3>
+                                <p class="muted">
+                                     Maquettage d'interface web, zonning, intégration web HTML CSS JS, intégration en responsive et mobile first selon le besoin,
+                                    création de maquette sur photoshop lorsque nécessaire, intégration de Bootstrap et utilisation des classes et du grid,
+                                    design graphique multimédia, construction d'interface UXDesign, gestion du style avec LESS.
+                                </p>
+                                <ul class="tag-list ul-no-style flexbox wrap">
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> HTML5 / CSS3</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> UX design</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> less</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Bootstrap</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> AdobeCreativ</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Responsive</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Mobile First</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="profile" style="background-image: url(ressources/img/background-profile.jpg);">
+                <div class="container">
+                    <div class="flexbox wrap space-around">
+                        <article class="col-sm-4">
+                            <i class="fa fa-grav fa-top" aria-hidden="true"></i>
+                            <h3>Expériences</h3>
+                            <ul class="border-top ul-no-style">
+                                <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p><strong>GDA </strong><br><i>Chargée de projet web junior</i><br>Maquette site et zoning, développement php,environnement Zend, Versionning BitBucket, Echange client cahier des charges, E-mailing, maintenance et debugg</p></li>
+                                <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p><strong>Opteven</strong><br><i>Chargée d'assistance</i><br>Participation au projet Opteven Lab', création d'infographie, gestion de dossier d'assistance, gestion des contrats, relations clients et fournisseurs / prestataires, gestion de litiges</p></li>
+                                <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p><strong>CVO-Europe </strong><br><i>Infographiste</i><br>Mise à jour du site vitrine, intégration web, optimisation web, création graphique (plaquette, catalogue produits, visu web, etc.), relation imprimeurs</p></li>
+                            </ul>
+                            <footer class="article-footer text-center">
+                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                            </footer>
+                        </article>
+                        <article class="col-sm-4 ul-no-style">
+                            <i class="fa fa-bandcamp fa-top" aria-hidden="true"></i>
+                            <h3>Formation</h3>
+                            <ul class="border-top ul-no-style">
+                                <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p><strong>Développeur Full Stack (en cours)</strong><br><i>IT-Akademy Lyon</i><br><span class="muted">PHP (langage, syntaxe, Framework Laravel et Symfony, POO, CLI, streams, sécurité, performance), gestion de bases de données (SQL, NoSQL), JavaScript (client / AJAX, Node.js / Meteor), Web APIs, aplli IOS et hybrides, conduite de projet, communication et législation</span></p></li>
+                                <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p><strong>Certification Openclassrooms</strong><br><span class="muted"></span>HTMLS CSS3<br>JavaScript<br>C#<br>Posture d'agilité<br>Posture d'ouverture</p></li>
+                                <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p><strong>BTS Assistant.e de gestion PME PMI (alternance)</strong><br><i>CFA Ifir</i><br><span class="muted">Gestion administrative commerciale et financière, pérénisation d'entreprise, gestion de projet</span></p></li>
+                            </ul>
+                            <footer class="article-footer text-center">
+                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                            </footer>
+                        </article>
+                        <article class="col-sm-4">
+                            <i class="fa fa-plus-circle fa-top" aria-hidden="true"></i>
+                            <h3>Et tout le reste</h3>
+                            <ul class="border-top ul-no-style">
+                                <li class="flexbox"><i class="fa fa-bicycle" aria-hidden="true"></i>
+                                <p>Vélo<br>randonnée<br>ski</p></li>
+                                <li class="flexbox"><i class="fa fa-music" aria-hidden="true"></i>
+                                <p>Techno<br>synth wave<br>cold wave<br>rap<br>variété française de mauvais goût<br>année 2000 et 90's<br>Calling Marian</p></li>
+                                <li class="flexbox"><i class="fa fa-file-code-o" aria-hidden="true"></i>
+                                <p>Open Source<br>deep learning<br>scénario catastrophe futur proche<br>XMCO - Actu Sécu<br>Kali linux<br>Windows<br>Kévin Mitnick</p></li>
+                            </ul>
+                            <footer class="article-footer text-center">
+                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="real">
+                <div class="container">
                     <article class=" col-sm-6">
                         <div class="flexbox">
                             <div class="border-right">
@@ -123,108 +284,76 @@
                 </div>
             </section>
 
-            <section id="profile" style="background-image: url(ressources/img/background-profile.jpg);">
-                <div class="container">
-                    <div class="flexbox wrap space-around">
-                        <article class="col-sm-4">
-                            <i class="fa fa-grav fa-top" aria-hidden="true"></i>
-                            <h3>Expériences</h3>
-                            <ul class="border-top ul-no-style">
-                                <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>GDA </strong><br><i>Chargée de projet web junior</i><br>Maquette site et zoning, développement php,environnement Zend, Versionning BitBucket, Echange client cahier des charges, E-mailing, maintenance et debugg</p></li>
-                                <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>Opteven</strong><br><i>Chargée d'assistance</i><br>Participation au projet Opteven Lab', création d'infographie, gestion de dossier d'assistance, gestion des contrats, relations clients et fournisseurs / prestataires, gestion de litiges</p></li>
-                                <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>CVO-Europe </strong><br><i>Infographiste</i><br>Mise à jour du site vitrine, intégration web, optimisation web, création graphique (plaquette, catalogue produits, visu web, etc.), relation imprimeurs</p></li>
-                            </ul>
-                            <footer class="article-footer text-center">
-                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                            </footer>
-                        </article>
-                        <article class="col-sm-4 ul-no-style">
-                            <i class="fa fa-bandcamp fa-top" aria-hidden="true"></i>
-                            <h3>Formation</h3>
-                            <ul class="border-top ul-no-style">
-                                <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>Développeur Full Stack (en cours)</strong><br><i>IT-Akademy Lyon</i><br><span class="muted">PHP (langage, syntaxe, Framework Laravel et Symfony, POO, CLI, streams, sécurité, performance), gestion de bases de données (SQL, NoSQL), JavaScript (client / AJAX, Node.js / Meteor), Web APIs, aplli IOS et hybrides, conduite de projet, communication et législation</span></p></li>
-                                <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>Certification Openclassrooms</strong><br><span class="muted"></span>HTMLS CSS3<br>JavaScript<br>C#<br>Posture d'agilité<br>Posture d'ouverture</p></li>
-                                <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>BTS Assistant.e de gestion PME PMI (alternance)</strong><br><i>CFA Ifir</i><br><span class="muted">Gestion administrative commerciale et financière, pérénisation d'entreprise, gestion de projet</span></p></li>
-                            </ul>
-                            <footer class="article-footer text-center">
-                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                            </footer>
-                        </article>
-                        <article class="col-sm-4">
-                            <i class="fa fa-plus-circle fa-top" aria-hidden="true"></i>
-                            <h3>Et tout le reste</h3>
-                            <ul class="border-top ul-no-style">
-                                <li class="flexbox"><i class="fa fa-bicycle" aria-hidden="true"></i>
-                                <p>Vélo<br>randonnée<br>ski</p></li>
-                                <li class="flexbox"><i class="fa fa-music" aria-hidden="true"></i>
-                                <p>Techno<br>synth wave<br>cold wave<br>rap<br>variété française de mauvais goût<br>année 2000 et 90's<br>Calling Marian</p></li>
-                                <li class="flexbox"><i class="fa fa-file-code-o" aria-hidden="true"></i>
-                                <p>Open Source<br>deep learning<br>scénario catastrophe futur proche<br>XMCO - Actu Sécu<br>Kali linux<br>Windows<br>Kévin Mitnick</p></li>
-                            </ul>
-                            <footer class="article-footer text-center">
-                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                            </footer>
-                        </article>
-                    </div>
-                </div>
-            </section>
-
             <section id="form-section">
-                <div class="container">
-                    <!-- FORM
-                    <form class="form-controller" method="POST" action="#formulaire">
-                        <label for="completename">Nom et prénom : </label>
-                        <input name="completename" id="completename" type="text">
-                        <label for="job">Fonction : </label>
-                        <input name="job" id="job" type="text">
-                        <label for="company">Société : </label>
-                        <input name="company" id="company" type="text">
-                        <label for="email">E-mail : </label>
-                        <input name="email" id="email" type="text">
-                        <label for="message">Message : </label>
-                        <textarea rows="10" name="message" id="message"></textarea>
-                        <input type="submit" name="submit" value="ENVOYER !">
-                    </form>
-                    -->
-                    <form id="contact-form" class="text-center" action="#form-section" method="POST">
-                        <h2>Éh Lucie !</h2>
-                        <p>Mon
-                          <label for="your-name">nom</label> est<br>
-                          <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(votre nom)" required></p>
-                        <p>Je suis joignable à cet
-                          <label for="email">email</label><br>
-                          <input type="email" name="your-email" id="email" placeholder="(votre email)" required>
-                        </p>
-                        <p>Je fais partie de la
-                          <label for="company">société</label><br>
-                          <input type="company" name="your-company" id="company" placeholder="(Votre société)">
-                        </p>
-                        <p>
-                          <label for="job">En tant que</label><br>
-                          <input type="job" name="your-job" id="job" placeholder="(Votre fonction)">
-                        </p>
-                        <p> Et j'ai un
-                            <label for="your-message">message</label> pour toi !
-                        </p>
-                        <p>
-                            <textarea name="your-message" id="your-message" placeholder="(Votre message)" class="expanding" required></textarea>
-                        </p>
-                        <p>
-                            <button type="submit">
-                              <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
-                                <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
-                                 l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
-                              </svg>
-                            </button>
-                        </p>
-                    </form>
-                </div>
+                <!-- FORM
+                <form class="form-controller" method="POST" action="#formulaire">
+                    <label for="completename">Nom et prénom : </label>
+                    <input name="completename" id="completename" type="text">
+                    <label for="job">Fonction : </label>
+                    <input name="job" id="job" type="text">
+                    <label for="company">Société : </label>
+                    <input name="company" id="company" type="text">
+                    <label for="email">E-mail : </label>
+                    <input name="email" id="email" type="text">
+                    <label for="message">Message : </label>
+                    <textarea rows="10" name="message" id="message"></textarea>
+                    <input type="submit" name="submit" value="ENVOYER !">
+                </form>
+
+                <form id="contact-form" class="text-center" action="#form-section" method="POST">
+                    <h2>Éh Lucie !</h2>
+                    <p>Mon
+                      <label for="your-name">nom</label> est<br>
+                      <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(votre nom)" required></p>
+                    <p>Je suis joignable à cet
+                      <label for="email">email</label><br>
+                      <input type="email" name="your-email" id="email" placeholder="(votre email)" required>
+                    </p>
+                    <p>Je fais partie de la
+                      <label for="company">société</label><br>
+                      <input type="company" name="your-company" id="company" placeholder="(Votre société)">
+                    </p>
+                    <p>
+                      <label for="job">En tant que</label><br>
+                      <input type="job" name="your-job" id="job" placeholder="(Votre fonction)">
+                    </p>
+                    <p> Et j'ai un
+                        <label for="your-message">message</label> pour toi !
+                    </p>
+                    <p>
+                        <textarea name="your-message" id="your-message" placeholder="(Votre message)" class="expanding" required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">
+                          <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+                            <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+                             l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+                          </svg>
+                        </button>
+                    </p>
+                </form>
+                -->
+
+                <!--PAGE CONTACT-->
+
+                <section class="showcontent page contact">
+                    <div class="contact-wrap elem">
+                        <div class="contact-card">
+                            <img src="ressources/img/contact.jpg" alt="Photo" class="img-circle"/>
+                            <div class="transition-bar">
+                                <p class="active">Contactez-moi !</p>
+                            </div>
+                            <div class="contact-content-wrap">
+                                <div class="content contact-content-1">
+                                    <p><span>+33.(0)783.750.887</span></p>
+                                    <p><span>luciejoseph@ymail.com</span></p>
+                                    <p><span>Région de Lyon</span></p>
+                                    <a class="btn-title" href="mailto:luciejoseph@ymail.com"><span>Par ici !</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </section>
 
             <section id="contact-items">
