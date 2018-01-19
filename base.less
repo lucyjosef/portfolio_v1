@@ -8,12 +8,16 @@
 
 nav {
     background-color: @almostBlack;
-    padding: 3vh 0vw 4.5vh 10vw;
+    padding: 17px 0vw 0vh 10vw;
     width: 100vw;
     height: 5vh;
+    min-height: 60px;
     position: fixed;
     top: 0vh;
     z-index: 10000;
+    i {
+        font-size: 40px;
+    }
 }
 
 section {
@@ -156,6 +160,13 @@ section {
     }
 }
 
+/* REALISATIONS */
+
+#real {
+    background-color: @almostBlack;
+    color: white;
+}
+
 /* CONTACT ITEMS */
 #contact-items {
     background-color: white;
@@ -176,10 +187,12 @@ section {
     }
 }
 
+
 /* FORM SECTION */
 #form-section {
   background-color: @red;
   color: white;
+    padding: 0;
   h2{
     padding-bottom: 5vh;
   }
@@ -198,13 +211,11 @@ label {
 
 textarea,
 input {
-  border: none;
   outline: none;
   border-radius: 0;
   text-align: center;
   background: none;
   font-weight: 400;
-  font-family: ;
   font-size: 25px;
   color: @almostBlack;
   max-width: 90%;
