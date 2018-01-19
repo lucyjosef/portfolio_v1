@@ -50,7 +50,7 @@ section {
   padding-right: 5vw;
 }
 .ul-no-style a:hover {
-  color: #1fa67a;
+  color: #f95515;
 }
 /* TOP and HEADER */
 #top img {
@@ -83,7 +83,7 @@ section {
   margin-top: 1vh;
 }
 #skills article ul li:hover {
-  background-color: #1fa67a;
+  background-color: #f95515;
 }
 #skills article .border-right {
   padding-right: 2vw;
@@ -91,7 +91,7 @@ section {
 }
 #skills .icon-strong {
   font-size: 4rem;
-  color: #1fa67a;
+  color: #f95515;
 }
 #skills .reduce-width {
   width: 80%;
@@ -124,7 +124,7 @@ section {
   font-size: 8rem;
 }
 #profile h3 {
-  color: #1fa67a;
+  color: #f95515;
   padding-bottom: 2vh;
 }
 #profile p {
@@ -167,7 +167,7 @@ section {
   padding: 5vh 0 2vh 0;
 }
 #contact-items a:hover {
-  color: #1fa67a;
+  color: #f95515;
 }
 #contact-items a i {
   font-size: 2rem;
@@ -179,7 +179,7 @@ section {
 }
 /* FORM SECTION */
 #form-section {
-  background-color: #1fa67a;
+  background-color: #f95515;
   color: white;
   padding: 0;
 }
