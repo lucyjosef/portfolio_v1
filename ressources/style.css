@@ -134,6 +134,9 @@ section {
 #profile i {
   padding-right: 1vw;
 }
+#profile a i {
+  padding-right: 1vw;
+}
 #profile footer {
   height: 10vh;
   width: 100%;
