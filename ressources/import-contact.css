@@ -46,7 +46,8 @@ body {
 }
 
 .contact {
-  background: url(https://cdn.pixabay.com/photo/2017/12/06/02/52/mountains-3000795_960_720.jpg) no-repeat center center;
+  /*background: url(ressources/img/mountains.jpg) no-repeat center center;*/
+  background-image: url(img/mountains.jpg);
   background-size: cover;
   width: 100vw;
   height: 100vh;

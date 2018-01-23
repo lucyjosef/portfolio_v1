@@ -122,6 +122,7 @@ section {
   left: 50%;
   margin-left: -38px;
   font-size: 8rem;
+  color: #131313;
 }
 #profile h3 {
   color: #f95515;
@@ -138,8 +139,9 @@ section {
   width: 100%;
   position: absolute;
   bottom: -10vh;
-  background-color: #3a3a3a;
   margin-left: -10%;
+  min-height: 30px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) inset;
 }
 @media screen and (max-width: 800px) {
   #profile footer {
@@ -147,9 +149,10 @@ section {
   }
 }
 #profile footer i {
-  font-size: 3rem;
-  color: white;
-  margin-top: 10%;
+  font-size: 4vh;
+  color: #131313;
+  margin-top: 3vh;
+  height: 68vh;
 }
 @media screen and (max-width: 800px) {
   #profile footer i {
@@ -159,7 +162,32 @@ section {
 /* REALISATIONS */
 #real {
   background-color: #131313;
+  color: #131313;
+}
+#real article {
+  padding-bottom: 2vh;
+}
+#real article img {
+  width: 100%;
+}
+#real article .reduce-again {
+  padding: 15px;
+}
+#real article .reduce-width {
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+#real article ul li {
+  background-color: #3a3a3a;
   color: white;
+  padding: 0.5vh 1vw;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-right: 1vw;
+  margin-top: 1vh;
+}
+#real article ul li:hover {
+  background-color: #f95515;
 }
 /* CONTACT ITEMS */
 #contact-items {
@@ -212,7 +240,6 @@ input {
 }
 textarea {
   text-align: left;
-  /* overflow:hidden; */
   resize: none;
   width: 90%;
   border-color: rgba(255, 255, 255, 0);

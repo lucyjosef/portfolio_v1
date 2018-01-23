@@ -127,6 +127,7 @@ section {
           left: 50%;
           margin-left: -38px;
           font-size: 8rem;
+          color: @almostBlack;
         }
     }
     h3 {
@@ -144,15 +145,17 @@ section {
         width: 100%;
         position: absolute;
         bottom: -10vh;
-        background-color: #3a3a3a;
         margin-left: -10%;
+        min-height: 30px;
+        box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) inset;
         @media screen and (max-width: 800px){
           margin-left: -3.3%;
         }
         i {
-            font-size: 3rem;
-            color: white;
-            margin-top:10%;
+            font-size: 4vh;
+            color: @almostBlack;
+            margin-top: 3vh;
+            height: 68vh;
             @media screen and (max-width: 800px){
               margin-top: 6%;
             }
@@ -164,7 +167,34 @@ section {
 
 #real {
     background-color: @almostBlack;
-    color: white;
+    color: @almostBlack;
+    article {
+        padding-bottom: 2vh;
+        img {
+            width: 100%;
+        }
+        .reduce-again{
+            padding: 15px;
+        }
+        .reduce-width {
+            background-color: white;
+            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+        }
+        ul {
+            li {
+                background-color: @darkGrey;
+                color: white;
+                padding: 0.5vh 1vw;
+                border-radius: 4px;
+                font-size: 1rem;
+                margin-right: 1vw;
+                margin-top: 1vh;
+                &:hover{
+                  background-color: @red;
+                }
+            }
+        }
+    }
 }
 
 /* CONTACT ITEMS */
@@ -227,8 +257,6 @@ input {
 
 textarea {
   text-align: left;
-  /* overflow:hidden; */
-
   resize: none;
   width: 90%;
   border-color: rgba(255, 255, 255, 0)
