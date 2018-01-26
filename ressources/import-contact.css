@@ -48,18 +48,23 @@ body {
 .contact {
   /*background: url(ressources/img/mountains.jpg) no-repeat center center;*/
   background-image: url(img/mountains.jpg);
+  background-attachment: fixed;
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  min-height: 700px;
 }
 
 .contact-wrap {
   transform-style: preserve-3d;
   margin:auto;
   width: 80%;
-  height: 70%;
+  height: 415px;
   text-align:center;
   opacity: 1;
+    background-color: white;
+    margin-top: 100px;
+    max-width: 315px;
 }
 
 .contact-card {

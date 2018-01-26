@@ -29,22 +29,29 @@ section {
 }
 .flexbox {
     display: flex;
-    flex-direction: row;
     align-content: center;
+}
+.vertical-space-around {
+    .flexbox;
+    flex-direction: column;
+    //justify-content: space-around;
+    align-items: center;
 }
 .wrap {
     .flexbox;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .space-around {
     .flexbox;
     justify-content: space-around;
+    flex-direction: row;
 }
 .ul-no-style {
     list-style: none;
     a {
         text-decoration: none;
-        color: @lightGrey;
+        color: white;
         padding-right: 5vw;
         &:hover {
             color: @red;
@@ -55,16 +62,54 @@ section {
 /* TOP and HEADER */
 
 #top {
-  img {
-    width: 50vw;
-    height: auto;
-    max-width: 350px;
-    max-height: 350px;
-    box-shadow : 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  }
-  div {
-    padding: 3rem;
-  }
+    background-size: cover;
+    background-position : bottom;
+    background-attachment: fixed;
+    background-color: @red;
+    color: white;
+    height: 100vh;
+    min-height: 600px;
+    font-size: 1.5rem;
+    div {
+        padding: 3vw;
+        width: 50vw;
+        max-width: 500px;
+        min-width: 250px;
+    }
+    h1 {
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    a {
+        padding: 0;
+        color: white;
+        i {
+            font-size: 7rem;
+            @media screen and (max-width: 600px) {
+                display: none;
+            }
+        }
+        &:hover {
+            color: @almostBlack;
+        }
+    }
+    .fix-left {
+        position: absolute;
+        left: 80%;
+        bottom: 6%;
+        border: 1px solid white;
+        border-style: dashed;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
+        @media screen and (max-width: 1000px) {
+            left : 68%;
+        }
+        p {
+            width : 100px
+        }
+    }
 }
 
 /* SKILLS */
@@ -98,6 +143,9 @@ section {
     .icon-strong {
         font-size: 4rem;
         color: @red;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
     .reduce-width {
         width: 80%;
@@ -118,7 +166,7 @@ section {
         padding-top: 6vh;
         @media screen and (max-width: 800px){
           width: 90%;
-          margin-bottom: 20vh;
+          margin-bottom: 25vh;
         }
         .fa-top {
           display: block;
@@ -141,9 +189,9 @@ section {
         padding-right: 1vw;
     }
     a {
-        i {
-            padding-right: 1vw;
-        }
+       
+        padding-right: 1vw;
+        
     }
     footer {
         height: 10vh;
@@ -175,8 +223,19 @@ section {
     color: @almostBlack;
     article {
         padding-bottom: 2vh;
+        max-width: 360px;
         img {
             width: 100%;
+            height: 191px;
+            background-color: white;
+            opacity : 0.5;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            &:hover {
+                opacity: 1;
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+            }
         }
         .reduce-again{
             padding: 15px;
@@ -184,6 +243,7 @@ section {
         .reduce-width {
             background-color: white;
             box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+            border-radius: 2px;
         }
         ul {
             li {
@@ -207,6 +267,7 @@ section {
     background-color: white;
     padding: 5vh 0 2vh 0;
     a {
+        color: @darkGrey;
         &:hover {
           color: @red;
         }
