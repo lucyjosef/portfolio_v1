@@ -1,0 +1,32 @@
+.parentModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.childModal {
+    align-content: center;
+    justify-content: center;
+    font-family: sans-serif;
+    display: flex;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: grey;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    
+}
+
+.childModal a {
+    text-decoration: none;
+    color: white;
+}

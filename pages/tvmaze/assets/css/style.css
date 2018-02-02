@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.ul-no-style {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* HEADER SIDE */
+#header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px dashed goldenrod;
+    background-color: darkslategrey;
+    color: white;
+}
+
+/* LIST SIDE */
+section[data-use="list"] {
+    width: 15vw;
+    padding: 3%;
+    overflow: visible;
+    border-right: 2px dashed goldenrod;
+    min-height: 100vh;
+}
+
+section[data-use="list"] li {
+    color: black;
+}
+
+section[data-use="list"] li:hover {
+    cursor: pointer;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+section[data-use="list"] div[data-item="search"] label, input {
+    max-width: 80%;
+}
+
+[data-use="submit"] {
+    border: 1px dashed goldenrod;
+    padding: 5px;
+    color: goldenrod;
+    background-color: white;
+    margin-top: 10px;
+}
+
+[data-use="submit"]:hover {
+    color: darkslategrey;
+    border: 1px dashed darkslategrey;
+}
+
+.clearList {
+    margin-top: 10px;
+    border-style: none;
+    background-color: goldenrod;
+    color: white;
+}
+.clearList:hover {
+    font-weight: bold;
+    color: goldenrod;
+    background-color: white;
+}
+
+[data-use="list"]  {
+    color: goldenrod;
+}
+
+/* DETAILS SIDE */
+section[data-use="detail"] {
+    width: 70vw;
+    padding: 3%;
+}
+
+section[data-use="detail"] p, h1, img {
+    max-width: 80%;
+}
+
+section[data-use="detail"] h1 {
+    text-align: center;
+}
+
+/* FAVORITE SIDE */
+section[data-use="fav"] i {
+    color: goldenrod;
+    border: 1px dashed goldenrod;
+    font-size: 46px;
+    position: fixed;
+    top: 23vh;
+    right: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section[data-use="fav"] i:hover {
+    color: darkslategrey;
+    border: 1px dashed darkslategrey;
+}
+
+section[data-use="fav"] button {
+    color: goldenrod;
+    border: 1px dashed goldenrod;
+    font-size: 13px;
+    position: fixed;
+    top: 32vh;
+    right: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section[data-use="fav"] button:hover {
+    color: darkslategrey;
+    border: 1px dashed darkslategrey;
+}
+
+li[data-event="clickedOnFav"]:hover {
+    color: #131313;
+    font-weight: bold;
+    cursor: pointer;
+}
