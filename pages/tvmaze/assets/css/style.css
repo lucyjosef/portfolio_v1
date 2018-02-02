@@ -17,15 +17,25 @@ body {
     display: none;
 }
 
+.dark {
+    color: #131313;
+    font-family: 'Seaweed Script', serif;
+    font-size: 20px;
+}
+
 /* HEADER SIDE */
 #header {
+    font-family: 'Creepster', cursive;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 2px dashed goldenrod;
-    background-color: darkslategrey;
-    color: white;
+    background-color: white;
+    color: goldenrod;
+}
+#header h1 {
+    font-size: 30px;    
 }
 
 /* LIST SIDE */

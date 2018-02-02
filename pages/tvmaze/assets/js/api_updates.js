@@ -17,7 +17,7 @@ $(document).ready(function(){
     function launchApi() {        
         //bring api content (list of movies title)
         $.ajax({
-            url: "http://api.tvmaze.com/search/shows?q=" + input
+            url: "https://api.tvmaze.com/search/shows?q=" + input
         }).done(function(data) {
             htmlRender += '<ul class="ul-no-style">';
             $.each(data, function(index, value) {
@@ -50,7 +50,7 @@ $(document).ready(function(){
         var htmlRenderBis = "";
         var content = this.innerText;
         $.ajax({
-            url : "http://api.tvmaze.com//search/shows?q=" + input
+            url : "https://api.tvmaze.com//search/shows?q=" + input
         }).done(function(data) {
             $.each(data, function(index, value) {
                 if(content == value.show.name) {
