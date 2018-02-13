@@ -6,6 +6,25 @@
     margin-right: 0;
 }
 
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.top-nav {
+    min-height: 54px;
+    padding: 10px;
+    margin-bottom: 0px;
+    position: fixed;
+    border-radius: 0px;
+}
+
+.detail-nav {
+    background-color: #222;
+    border-color: white;
+    
+}
+
 nav {
     background-color: @almostBlack;
     padding: 17px 0vw 0vh 10vw;
@@ -17,6 +36,18 @@ nav {
     z-index: 10000;
     i {
         font-size: 40px;
+    }
+    .burger {
+        border: 0px transparent solid;
+        position: relative;
+        top: -8px;
+        right: 20px;
+        &:hover {
+            background-color: @almostBlack !important;
+        }
+    }
+    ul {
+        padding-top: 8px;
     }
 }
 
@@ -30,6 +61,10 @@ section {
 .flexbox {
     display: flex;
     align-content: center;
+}
+.wrap {
+    .flexbox;
+    flex-wrap: wrap;
 }
 .vertical-space-around {
     .flexbox;

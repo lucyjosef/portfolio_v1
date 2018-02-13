@@ -4,6 +4,21 @@
   padding: 0;
   margin-right: 0;
 }
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.top-nav {
+  min-height: 54px;
+  padding: 10px;
+  margin-bottom: 0px;
+  position: fixed;
+  border-radius: 0px;
+}
+.detail-nav {
+  background-color: #222;
+  border-color: white;
+}
 nav {
   background-color: #131313;
   padding: 17px 0vw 0vh 10vw;
@@ -17,6 +32,18 @@ nav {
 nav i {
   font-size: 40px;
 }
+nav .burger {
+  border: 0px transparent solid;
+  position: relative;
+  top: -8px;
+  right: 20px;
+}
+nav .burger:hover {
+  background-color: #131313 !important;
+}
+nav ul {
+  padding-top: 8px;
+}
 section {
   padding: 10vh 0;
 }
@@ -27,6 +54,11 @@ section {
 .flexbox {
   display: flex;
   align-content: center;
+}
+.wrap {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .vertical-space-around {
   display: flex;

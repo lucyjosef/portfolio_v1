@@ -4,7 +4,7 @@
         <title>Lucie JOSEPH | Développeur</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,6 +24,7 @@
     </head>
     <body>
         <div class="container-fluid">
+            <!--
             <nav>
                 <ul class="ul-no-style flexbox">
                     <li><a href="#top"><i class="fa fa-home" aria-hidden="true" style="font-size: 31px; position: absolute; top: 10px;"></i></a></li>
@@ -33,20 +34,41 @@
                     <li><a href="#form-section">CONTACT</a></li>
                 </ul>
             </nav>
+            -->
+            
+            <nav class="top-nav navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="burger navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+                <div class="detail-nav collapse navbar-collapse" id="myNavbar">
+                  <ul class="ul-no-style wrap">
+                    <li><a href="#top"><i class="fa fa-home" aria-hidden="true" style="font-size: 31px; position: absolute; top: 10px;"></i></a></li>
+                    <li><a href="#skills">COMPÉTENCES</a></li>
+                    <li><a href="#profile">PROFIL</a></li>
+                    <li><a href="#real">TRAVAUX</a></li>
+                    <li><a href="#form-section">CONTACT</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
 
             <!-- HOME -->
 
             <section id="top">
                     <div class="container flexbox">
                         <div>
-                            <h1>Hello !</h1>
-                            <p>Je suis Lucie , Lyonnaise depuis 2009. Infographiste repentie, en reconversion dans le développement web depuis 2016. Aujourd'hui en formation avec l'IT-Akademy, je recherche une opportunité d'alternance ou de stage à partir du mois de mars !</p>
+                            <h1>Salut !</h1>
+                            <p>Je suis Lucie, adoptée par la région lyonnaise il y a une dizaine d'années, infographiste repentie, développeur en devenir. Autodidacte mais pas que ! Membre actif de la tribu de l'IT-Akademy, je suis aussi cycliste par nécessité.</p>
                             <a href="#skills" class="btn"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 <div class="fix-left">
-                    <p>Pressé de me contacter ?<br>
-                    Je comprend.<br>
+                    <p><strong>Pressé.e de me contacter ?</strong><br>
                     Brulez les étapes !</p>
                     <a href="#form-section"><i class="fa fa-address-card-o" aria-hidden="true"></i></a>
                 </div>
@@ -65,10 +87,10 @@
                             <div class="reduce-width">
                                 <h3>Développement</h3>
                                 <p class="muted">
-                                    Création de MCD et schéma conceptuels pré-implémentation, création et administration de bases de données,
-                                    requêtes SQL, gestion de comptes utilisateurs, accessibilité des données, tests unitaire des fonctionnalités,
-                                    implémentation orientée objets, programmation impérative, debug et maintenance des applications web, installation de
-                                    wordpress avec wpcli et développement de thèmes / plugins, utilisation de framework (laravel, symfony, zend studio).
+                                    Création de MCD et schémas conceptuels pré-implémentation, création et administration de bases de données,
+                                    requêtes SQL, gestion de comptes utilisateurs, accessibilité des données,
+                                    implémentation orientée objets ou prototyping, debug et maintenance des applications web, installation de
+                                    wordpress avec wpcli et développement de thèmes / plugins, uilisation et exploitation d'api web.
                                 </p>
                                 <ul class="tag-list ul-no-style flexbox wrap">
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Php5/Php7</li>
@@ -90,13 +112,10 @@
                             <div class="reduce-width">
                                 <h3>Technique</h3>
                                 <p class="muted">
-                                    Introduction à l'environnement .NET (c#.NET avec VisualStudio), gestion de l'hébergeur (OVH principalement), mise en ligne, migration de site,
-                                    redirections. Environnement UNIX (Mint, Ubuntu, Kali et MacOS), utilisation du protocole de connexion SSH,
-                                    gestion de server (Apache notamment), développement en virtualisation (virtualbox, vagrant), notion de réseau.
+                                    Introduction à l'environnement .NET (c#.NET avec VisualStudio), notion de gestion de l'hébergement, mise en ligne, redirection. Environnement UNIX (Mint, Ubuntu, Kali et MacOS) et windows, utilisation du protocole de connexion SSH, gestion de server (Apache notamment), développement en virtualisation (virtualbox, vagrant), notion de réseau. Connaissance de git CLI et GUI.
                                 </p>
                                 <ul class="tag-list ul-no-style flexbox wrap">
-                                    <li><i class="fa fa-tag" aria-hidden="true"></i> hébergement</li>
-                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Kali</li>
+                                    <li><i class="fa fa-tag" aria-hidden="true"></i> git</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Virtualisation</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> SSH</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> réseau</li>
@@ -116,17 +135,12 @@
                             <div class="reduce-width">
                                 <h3>Gestion</h3>
                                 <p class="muted">
-                                    Gestion de projet, initiation à la méthode agile (scrum), construction de diagram PERT,
-                                    utilisation de gantt pour gérer les tâches et les ressources. Rédaction d'un cahier des charges complet,
-                                    rédaction techniques des spécificités et fonctionnalités, relation clients et fournisseurs, création de devis
-                                    sur base de coût journalier ou horaire, tracking du temps effectif, organisation quotidienne du travail,
-                                    notion de marketing digital et réseau sociaux.
+                                    Gestion de projet, initiation à la méthode agile (scrum), construction de diagrammes PERT, utilisation de gantt pour gérer les tâches et les ressources. Notions de rédactions techniques et commerciales, relation clients et fournisseurs, organisation quotidienne du travail, notions de marketing digital et réseaux sociaux.
                                 </p>
                                 <ul class="tag-list ul-no-style flexbox wrap">
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Agile</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> PERT/Gantt</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Suite Office</li>
-                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Cahier des charges</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> gestion de projet</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> relations clients</li>
                                 </ul>
@@ -141,9 +155,7 @@
                             <div class="reduce-width">
                                 <h3>Design</h3>
                                 <p class="muted">
-                                     Maquettage d'interface web, zonning, intégration web HTML CSS JS, intégration en responsive et mobile first selon le besoin,
-                                    création de maquette sur photoshop lorsque nécessaire, intégration de Bootstrap et utilisation des classes et du grid,
-                                    design graphique multimédia, construction d'interface UXDesign, gestion du style avec LESS.
+                                     Maquettage d'interfaces web, zoning, intégration web HTML CSS JS, intégration en responsive et mobile first selon le besoin, possibilité de travaux graphiques destinés à l'impression (print). Bootstrap : utilisation des classes et du grid. Flexbox : utilisation de la magie des flexbox en CSS. Sensibilité pour l'UXDesign et la sémantique HTML, utilisation du compilateur LESS.
                                 </p>
                                 <ul class="tag-list ul-no-style flexbox wrap">
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> HTML5 / CSS3</li>
@@ -152,7 +164,6 @@
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Bootstrap</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Flexbox</li>
                                     <li><i class="fa fa-tag" aria-hidden="true"></i> Responsive</li>
-                                    <li><i class="fa fa-tag" aria-hidden="true"></i> Mobile First</li>
                                 </ul>
                             </div>
                         </div>
@@ -168,9 +179,9 @@
                             <h3>Expériences</h3>
                             <ul class="border-top ul-no-style">
                                 <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>GDA </strong><br><i>Chargée de projet web junior</i><br>Maquette site et zoning, développement php,environnement Zend, Versionning BitBucket, Echange client cahier des charges, E-mailing, maintenance et debugg</p></li>
+                                <p><strong>GDA </strong><br><i>Chargée de projet web junior</i><br>Maquette site et zoning, framework Zend Studio, versionning. Échange clients cahier des charges, E-mailing, maintenance et debugg</p></li>
                                 <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>Opteven</strong><br><i>Chargée d'assistance</i><br>Participation au projet Opteven Lab', création d'infographie, gestion de dossier d'assistance, gestion des contrats, relations clients et fournisseurs / prestataires, gestion de litiges</p></li>
+                                <p><strong>Opteven</strong><br><i>Chargée d'assistance</i><br>Participation au projet Opteven Lab', création d'infographies, gestion de dossier d'assistance, gestion des contrats, relation clients et fournisseurs / prestataires, gestion de litiges</p></li>
                                 <li  class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 <p><strong>CVO-Europe </strong><br><i>Infographiste</i><br>Mise à jour du site vitrine, intégration web, optimisation web, création graphique (plaquette, catalogue produits, visu web, etc.), relation imprimeurs</p></li>
                             </ul>
@@ -183,9 +194,9 @@
                             <h3>Formation</h3>
                             <ul class="border-top ul-no-style">
                                 <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>Développeur Full Stack (en cours)</strong><br><i>IT-Akademy Lyon</i><br><span class="muted">PHP (langage, syntaxe, Framework Laravel et Symfony, POO, CLI, streams, sécurité, performance), gestion de bases de données (SQL, NoSQL), JavaScript (client / AJAX, Node.js / Meteor), Web APIs, aplli IOS et hybrides, conduite de projet, communication et législation</span></p></li>
+                                <p><strong>Développeur Full Stack (en cours)</strong><br><i>IT-Akademy Lyon</i><br><span class="muted">PHP (langage, syntaxe, Framework Laravel et Symfony, POO), gestion de bases de données (SQL, NoSQL), JavaScript (client / AJAX, Node.js), Web APIs, aplli IOS et hybrides, conduite de projet, communication et législation</span></p></li>
                                 <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                <p><strong>Certification Openclassrooms</strong><br><span class="muted"></span>HTMLS CSS3<br>JavaScript<br>C#<br>Posture d'agilité<br>Posture d'ouverture</p></li>
+                                <p><strong>Certification Openclassrooms</strong><br><span class="muted"></span>HTML5 CSS3<br>JavaScript<br>C#<br>Posture d'agilité<br>Posture d'ouverture</p></li>
                                 <li class="flexbox"><i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 <p><strong>BTS Assistant.e de gestion PME PMI (alternance)</strong><br><i>CFA Ifir</i><br><span class="muted">Gestion administrative commerciale et financière, pérénisation d'entreprise, gestion de projet</span></p></li>
                             </ul>
@@ -198,11 +209,11 @@
                             <h3>Et tout le reste</h3>
                             <ul class="border-top ul-no-style">
                                 <li class="flexbox"><i class="fa fa-bicycle" aria-hidden="true"></i>
-                                <p>Vélo<br>randonnée<br>ski</p></li>
+                                <p>Vélo<br>randonnée<br>ski<br>roller derby supporter</p></li>
                                 <li class="flexbox"><i class="fa fa-music" aria-hidden="true"></i>
-                                <p>Techno<br>mais pas trop non plus<br>synth wave<br>cold wave<br>rap<br>variété française de mauvais goût<br>année 2000 et 90's<br>Calling Marian ♥ </p></li>
+                                <p>Techno<br>mais pas trop non plus<br>synth wave<br>cold wave<br>rap<br>variété française de mauvais goût<br>année 2000 et 90's<br>Calling Marian ♥</p></li>
                                 <li class="flexbox"><i class="fa fa-file-code-o" aria-hidden="true"></i>
-                                <p>Open Source<br>deep learning<br>scénario catastrophe<br>séries d'anticipatioin<br>XMCO - Actu Sécu<br>Kali linux<br>Windows<br>Kévin Mitnick<br>Electronic Frontier Foundation</p></li>
+                                <p>Open Source<br>deep learning<br>séries d'anticipation<br>Kali linux<br>Windows<br>Kévin Mitnick<br>Electronic Frontier Foundation</p></li>
                             </ul>
                             <footer class="article-footer text-center">
                                 <a href="ressources/pdf/CV.pdf" download target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
@@ -221,7 +232,7 @@
                                     <a href="pages/snake.html" target="_blank"><img src="ressources/img/snake.jpg"></a>
                                     <div class="reduce-again">
                                         <a href="pages/snake.html" target="_blank"><h3>Snake JavaScript POO</h3></a>
-                                        <p class="muted">Implémentation avec JavaScript d'un jeu bien connu : le snake ! Orienté proto, le jeu est simple, avec les flèches, orientez le serpent pour manger la pomme. Une fois la partie finie, la touche espace permet de rejouer une nouvelle partie.</p>
+                                        <p class="muted">Implémentation avec JavaScript du snake ! Orienté proto, le jeu est simple, avec les flèches, orientez le serpent pour manger la pomme. Une fois la partie finie, la touche espace permet de rejouer une nouvelle partie. Gestion du score.</p>
                                         <ul class="tag-list ul-no-style flexbox wrap">
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> JavaScript</li>
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> prototype</li>
@@ -236,7 +247,7 @@
                                 <div class="reduce-width">
                                     <a href="pages/brickBraker.html" target="_blank"><img src="ressources/img/brick.jpg"></a>
                                     <div class="reduce-again">
-                                        <a href="pages/brickBraker.html" target="_blank"><h3>Casse-brique JavaScript POO</h3></a>
+                                        <a href="pages/brickBraker.html" target="_blank"><h3>Casse-brique JavaScript</h3></a>
                                         <p class="muted">Deuxième jeu sur le meme principe que le premier. Le but est de casser toutes les briques en faisant rebondir la balle sur notre raquette en guidant celle-ci avec les flèches. Plusieurs vies sont gérées dans ce jeu. Pour recommencer, tappez sur Enter !
                                         </p>
                                         <ul class="tag-list ul-no-style flexbox wrap">
@@ -254,7 +265,7 @@
                                     <a href="https://github.com/lucyjosef/BattleCards" target="_blank"><img src="ressources/img/battle.jpg"></a>
                                     <div class="reduce-again">
                                         <a href="https://github.com/lucyjosef/BattleCards" target="_blank"><h3>La bataille en python POO</h3></a>
-                                        <p class="muted">Orienté objet, ce programme et un jeu de carte ultra basique : la bataille. Ce jeu n'a pas de plateforme web comme les deux premiers, il se joue en console. Ici le travail se concentre sur l'implémentation des classes entre elles et l'appel des méthodes de jeu entre elles.</p>
+                                        <p class="muted">Orienté objet, ce programme et un jeu de carte ultra basique : la bataille. Ce jeu n'a pas de plateforme web comme les deux premiers, il se joue en console. Ici le travail se concentre sur l'implémentation des classes entre elles.</p>
                                         <ul class="tag-list ul-no-style flexbox wrap">
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> python</li>
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> POO</li>
@@ -269,8 +280,8 @@
                                 <div class="reduce-width">
                                     <a href="pages/tvmaze/tvmaze.html" target="_blank"><img src="ressources/img/tv.jpg"></a>
                                     <div class="reduce-again">
-                                        <a href="pages/tvmaze/tvmaze.html" target="_blank"> <h3>Welcome to Lucy's film finder</h3></a>
-                                        <p class="muted">Exploitation de l'api de tvmaze pour développement javascript (JQuery) d'une application de recherche. Utilisation d'un plugin développé maison pour importer la modal d'affichage des favoris. Gestion des favoris en localStorage</p>
+                                        <a href="pages/tvmaze/tvmaze.html" target="_blank"> <h3>Welcome to Lucy's TV-show search tool</h3></a>
+                                        <p class="muted">Exploitation de l'api de tvmaze. DSéveloppement javascript (JQuery) d'une application de recherche. Utilisation d'un plugin développé maison pour importer la modal d'affichage des favoris. Gestion des favoris en <strong>localStorage</strong></p>
                                         <ul class="tag-list ul-no-style flexbox wrap">
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> LocalStorage</li>
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> appli web</li>
@@ -287,8 +298,8 @@
                                 <div class="reduce-width">
                                     <a href="https://github.com/lucyjosef/testPersonnalite/blob/master/Program.cs" target="_blank"><img src="ressources/img/manager.jpg"></a>
                                     <div class="reduce-again">
-                                        <a href="https://github.com/lucyjosef/testPersonnalite/blob/master/Program.cs" target="_blank"> <h3>Quel manager etes-vous ? C#</h3></a>
-                                        <p class="muted">Petit programme écrit en C# pour initiation. ce test est sur 10 questions concernant votre personnalité en tant que manager. En fonction des réponses saisies par l'utilisateur, un résultat est donné, le nombre de réponses A, B et C est affiché. Il est ensuite possible d'écrire un profil type en fonction.</p>
+                                        <a href="https://github.com/lucyjosef/testPersonnalite/blob/master/Program.cs" target="_blank"> <h3>Quel manager êtes-vous ? C#</h3></a>
+                                        <p class="muted">Petit programme console écrit en C# pour initiation. Ce test est sur 10 questions concernant votre personnalité en tant que manager. En fonction des réponses saisies par l'utilisateur, un résultat est donné, le nombre de réponses A, B et C est affiché. Il est ensuite possible d'écrire un profil type en fonction.</p>
                                         <ul class="tag-list ul-no-style flexbox wrap">
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> C#</li>
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> VisualStudio</li>
@@ -304,10 +315,11 @@
                                     <a href="https://github.com/lucyjosef/API_Nasa" target="_blank"><img src="ressources/img/nasa.jpg"></a>
                                     <div class="reduce-again">
                                         <a href="https://github.com/lucyjosef/API_Nasa" target="_blank"> <h3>API de la Nasa avec Adapter Php</h3></a>
-                                        <p class="muted">Dans ce travail, j'utilise deux API de la Nasa, le première pour visualiser l'article du jour, la seconde qui repertorie tous les astéroides avec leurs propriétés propres. l'utilisateur à le choix entre l'une ou l'autre. Un adapter pattern est implémenté pour faciliter l'extraction des données.</p>
+                                        <p class="muted">Dans ce travail, j'utilise deux API de la Nasa, la première pour visualiser l'article du jour, la seconde qui repertorie tous les astéroides avec leurs propriétés propres. l'utilisateur a le choix entre l'une ou l'autre. Un adapter pattern est implémenté pour faciliter l'extraction des données.</p>
                                         <ul class="tag-list ul-no-style flexbox wrap">
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> Php</li>
                                             <li><i class="fa fa-tag" aria-hidden="true"></i> API</li>
+                                            <li><i class="fa fa-tag" aria-hidden="true"></i> json_decode()</li>
                                         </ul>
                                     </div>
                                 </div>
