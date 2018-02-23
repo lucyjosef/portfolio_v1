@@ -259,6 +259,9 @@ section {
   padding-bottom: 2vh;
   max-width: 360px;
 }
+#real article div {
+  min-height: 100%;
+}
 #real article img {
   width: 100%;
   height: 191px;
